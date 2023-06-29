@@ -12,6 +12,15 @@ In this exercise, I applied the apriori algorithm on the Hypermarket_dataset dat
 ## Classifications Homework
 In this exercise, I implemented binary classification for make-_circles and fashion_mnist datasets. Multiple approaches were taken such as neural network without activation function, neural network with linear activation function, neural network with linear activation function and regression loss (MAE), one layered neural network linear activation function and regression loss (MAE), to compare results. For the optimal solution, hyperparameter tuning was done to obtain the optimal learning rate.
 
+loss plot for different approaches, model 6 being optimal: 
+
+![image](https://github.com/niloufareshghi/Data-Mining-Course/assets/47944007/43b18b4a-072b-4480-8eab-05527b9a72fb)
+
+accuracy plot for different approaches, model 6 being optimal:
+
+![image](https://github.com/niloufareshghi/Data-Mining-Course/assets/47944007/062d2364-0a7d-475e-8c12-fcc47d2f9785)
+
+
 ## Clustering Homework
 In this exercise, I implement several clustering approaches. K-means is implemented and optimized using the elbow method for optimal cluster count. manifold Isomap has also been implemented for "more complex clustering" examples.
 
@@ -23,3 +32,7 @@ In this exercise, I obtained the optimal values for epsilon and the minimum numb
 
 ## Diabetes Classification
 A database of a population given with different features such as Age, Sex, Weight, Blood Pressure, Blood Glucose Level, etc is given and an optimal classification model was designed to predict whether someone given their health factors is at risk of having diabetes or not. GridSearchCv is utilized for hyperparameter tuning and XGBoost was used for the classification.
+
+GridSearchCV with different estimators and max_depth, obtaining the optimal learning rate:
+![image](https://github.com/niloufareshghi/Data-Mining-Course/assets/47944007/0d360fa3-c78b-4a77-acfa-8d55ce2945d1)
+![image](https://github.com/niloufareshghi/Data-Mining-Course/assets/47944007/276076db-6c53-4419-9171-c416a9ebb218)
