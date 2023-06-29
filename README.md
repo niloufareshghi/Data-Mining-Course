@@ -6,6 +6,9 @@ A common example of association rule discovery is "shopping cart analysis". In t
 
 In this exercise, I applied the apriori algorithm on the Hypermarket_dataset dataset, which contains people's purchase orders from grocery stores. 
 
+![image](https://github.com/niloufareshghi/Data-Mining-Course/assets/47944007/fc915b89-bc38-4f1a-a265-09f68950c3f2)
+
+
 ## Classifications Homework
 In this exercise, I implemented binary classification for make-_circles and fashion_mnist datasets. Multiple approaches were taken such as neural network without activation function, neural network with linear activation function, neural network with linear activation function and regression loss (MAE), one layered neural network linear activation function and regression loss (MAE), to compare results. For the optimal solution, hyperparameter tuning was done to obtain the optimal learning rate.
 
